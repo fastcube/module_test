@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>maven.mc-module_test.parent</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.fastcube.tibco.Its.pres_test.module_test</groupId>
+		<artifactId>maven.module_test.parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../maven.module_test.parent/pom.xml</relativePath>
+	</parent>
+
+	<modules>
+		<module>../bw.mc-module_test</module>
+		<module>../bw.mc-module_test.application</module>
+	</modules>
+</project>
